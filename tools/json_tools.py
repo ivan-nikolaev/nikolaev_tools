@@ -16,6 +16,9 @@ def pp_json(json_thing, sort=True, indents=4):
 
 
 def read_json_from_file(filename):
+    """
+
+    """
     with open(filename, 'r') as outfile:
         json_string = outfile.read()
         json_ = json.loads(json_string)
