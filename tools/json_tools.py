@@ -2,6 +2,9 @@ import json
 
 
 def pp_json(json_thing, sort=True, indents=4):
+    """
+
+    """
     if type(json_thing) is str:
         print("====================================================================")
         print(json.dumps(json.loads(json_thing, encoding='utf-8'),
